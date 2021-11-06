@@ -1,1 +1,70 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #03a9b5;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 10vh;
+  background: red;
+}
+
+header img {
+  min-width: 300px;
+  height: auto;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 360px;
+}
+
+header .navbar a {
+  color: #ffffff;
+}
+
+main {
+  height: 65vh;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 20vh;
+}
+/*# sourceMappingURL=main.css.map */

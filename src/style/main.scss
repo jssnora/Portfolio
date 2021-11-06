@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import "variables";
+@import "index";
+@import "about";
+@import "contact";
+@import "blogs";
+
+@mixin flex-position($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: rgb(3, 169, 181);
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    text-align: center
+}
+
+header {
+    @include flex-position(flex-start, center);
+    flex-wrap: wrap;
+    height: 10vh;
+    background: red;
+
+    img {
+        min-width: 300px;
+        height: auto;
+    }
+
+    .navbar {
+        @include flex-position(space-evenly, center);
+        min-width: 360px;
+        a{
+            color: #ffffff
+        }
+    
+    }
+
+}
+
+main {
+    height: 65vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20vh;
+
+}
+
+@media screen and (min-width: 600px) {
+    
+}
