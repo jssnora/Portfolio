@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+.intro-home {
+  margin-top: 5vh;
+}
+
+.intro-home p {
+  margin-bottom: 3vh;
+}
+
+h2 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.skills-home {
+  display: table;
+  width: 100%;
+}
+
+.skills-home .skills-icon {
+  display: table-cell;
+}
+
+.skills-home .skills-level {
+  display: table-cell;
+}
+/*# sourceMappingURL=index.css.map */

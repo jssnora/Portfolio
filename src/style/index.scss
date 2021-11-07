@@ -1,0 +1,40 @@
+.intro-home {
+    margin-top: 5vh;
+    p {
+        margin-bottom: 3vh;
+    }
+}
+
+h2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.skills-home {
+    @include flex-position(center, center);
+    margin-bottom: 5vh;
+
+    .skills-icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-level {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 256px;
+        padding-left: 5vw;
+    }
+}
+
+.link-buttons-home {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin-bottom: 3vh;
+    }
+}
+
+

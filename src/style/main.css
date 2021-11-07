@@ -1,11 +1,79 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+.intro-home {
+  margin-top: 5vh;
+}
+
+.intro-home p {
+  margin-bottom: 3vh;
+}
+
+h2 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.skills-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5vh;
+}
+
+.skills-home .skills-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills-home .skills-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 256px;
+  padding-left: 5vw;
+}
+
+.link-buttons-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.link-buttons-home a {
+  margin-bottom: 3vh;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 html, body {
-  background: #03a9b5;
+  background: url(../background.jpg) no-repeat center fixed;
+  background-size: cover;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   height: 100%;
   width: 100%;
@@ -24,13 +92,13 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 10vh;
+  height: 15vh;
   background: red;
 }
 
 header img {
-  min-width: 300px;
-  height: auto;
+  width: 100vw;
+  margin-top: 3vh;
 }
 
 header .navbar {
@@ -43,15 +111,11 @@ header .navbar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 360px;
+  width: 100vw;
 }
 
 header .navbar a {
   color: #ffffff;
-}
-
-main {
-  height: 65vh;
 }
 
 footer {
@@ -65,6 +129,37 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 20vh;
+  height: 15vh;
+  margin: 0.3rem;
+  background-color: yellow;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.button {
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: #FFE194;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #c19f33;
+}
+
+.button:active {
+  background-color: #c19f33;
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 /*# sourceMappingURL=main.css.map */
