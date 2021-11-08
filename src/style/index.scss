@@ -3,10 +3,7 @@
     p {
         margin-bottom: 3vh;
     }
-    position: relative;
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    @include panel(10%);
 }
 
 h2 {
@@ -17,10 +14,7 @@ h2 {
 .skills-home {
     @include flex-position(center, center);
     margin-bottom: 5vh;
-    position: relative;
-    padding: 50px;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+    @include panel(10%);
 
     .skills-icon {
         display: flex;
