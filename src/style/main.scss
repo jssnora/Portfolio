@@ -27,7 +27,7 @@ header {
     background: red;
 
     img {
-        width: 100vw;
+        width: 95vw;
         margin-top: 3vh;
     }
 
@@ -39,7 +39,14 @@ header {
         }
     
     }
+}
 
+.wrapper {
+    @include flex-position(center,center);
+    flex-direction: column;
+    main {
+        width: 80vw;
+    }
 }
 
 footer {
@@ -66,9 +73,9 @@ footer {
     padding: 10px 20px;
     background-color: #FFE194;
     text-transform: uppercase;
-    transition: all 0.5s;
+    transition: all 0.3s;
     cursor: pointer;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px 15px #999;
 }
 
 .button:hover{
@@ -77,6 +84,6 @@ footer {
 
 .button:active {
     background-color: #c19f33;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 5px 15px #666;
     transform: translateY(4px);
   }

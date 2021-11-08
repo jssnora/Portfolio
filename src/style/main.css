@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 .intro-home {
   margin-top: 5vh;
+  position: relative;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .intro-home p {
@@ -23,6 +28,11 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 5vh;
+  position: relative;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .skills-home .skills-icon {
@@ -97,7 +107,7 @@ header {
 }
 
 header img {
-  width: 100vw;
+  width: 95vw;
   margin-top: 3vh;
 }
 
@@ -116,6 +126,26 @@ header .navbar {
 
 header .navbar a {
   color: #ffffff;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper main {
+  width: 80vw;
 }
 
 footer {
@@ -144,11 +174,11 @@ footer a {
   padding: 10px 20px;
   background-color: #FFE194;
   text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   cursor: pointer;
-  -webkit-box-shadow: 0 9px #999;
-          box-shadow: 0 9px #999;
+  -webkit-box-shadow: 0 9px 15px #999;
+          box-shadow: 0 9px 15px #999;
 }
 
 .button:hover {
@@ -157,8 +187,8 @@ footer a {
 
 .button:active {
   background-color: #c19f33;
-  -webkit-box-shadow: 0 5px #666;
-          box-shadow: 0 5px #666;
+  -webkit-box-shadow: 0 5px 15px #666;
+          box-shadow: 0 5px 15px #666;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
 }
