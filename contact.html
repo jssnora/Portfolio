@@ -22,10 +22,36 @@
     </header>
     
     <!-- Main section with content -->
+    <div class="wrapper">
         <main>
-            <p>content</p>
-        </main>
+            <h1>About</h1>
 
+            <!-- contact form -->
+            <form
+            action="https://formspree.io/f/mjvjnypb"
+            method="POST"
+>
+            <label>
+                Your email:
+                <input type="email" name="_replyto">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+            </form>
+
+            <!-- My contact details -->
+            <section class="contact-details">
+                <p>Phone: 0400 000 000</p>
+                <p>Email: sample_email@email.com</p>
+                <p>Address: 123 Sample Street, Melbourne VIC 3000</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78543.42187832901!2d144.92692440942366!3d-37.81427088089278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1636802499981!5m2!1sen!2sau" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+        </main>
+    </div>
     <!-- Footer section  -->
        <footer>
         <a id="back-to-top" href="#navbar">Back to top</a>
