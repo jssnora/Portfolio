@@ -13,5 +13,21 @@
             text-align: left;
         }
     }
-    
+}
+
+.education-section {
+    .education {
+        @include flex-position(flex-start, center);
+        flex-wrap: wrap;
+        margin-bottom: 3vh;
+        @include panel(10%);
+        .summary{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        p {
+            text-align: left;
+        }
+    }
 }

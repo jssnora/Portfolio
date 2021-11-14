@@ -23,8 +23,7 @@ html, body {
 header {
     @include flex-position(flex-start, center);
     flex-wrap: wrap;
-    height: 15vh;
-    // background: red;
+    height: 20vh;
 
     img {
         width: 95vw;
@@ -47,7 +46,6 @@ header {
     main {
         width: 80vw;
         h1 {
-            margin-top: 5vh;
             margin-bottom: 3vh;
         }
     }
@@ -59,7 +57,6 @@ footer {
     justify-content: space-evenly;
     height: 15vh;
     margin: 0.3rem;
-    // background-color: yellow;
 
     a {
         text-decoration: none;
