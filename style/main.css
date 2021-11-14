@@ -251,6 +251,28 @@ form .email, form .message {
   margin: 3vh;
 }
 
+h4 {
+  margin-bottom: 3vh;
+}
+
+.blog-post-content {
+  position: relative;
+  padding: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.blog-post-content img {
+  width: 100%;
+  margin-bottom: 3vh;
+}
+
+.blog-post-content p {
+  text-align: start;
+  margin-bottom: 3vh;
+}
+
 * {
   margin: 0;
   padding: 0;
