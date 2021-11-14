@@ -31,3 +31,7 @@
         }
     }
 }
+
+ul {
+    @include panel(10%);
+}

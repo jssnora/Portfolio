@@ -1,0 +1,30 @@
+form {
+    @include flex-position(center, center);
+    @include panel(10%);
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+    label {
+        input, textarea {
+            width: 100%;
+        }
+        textarea {
+            height: 15vh;
+        }
+    }
+    .email, .message {
+        margin-bottom: 2vh;
+    }
+}
+
+.contact-details {
+    @include flex-position(flex-start, center);
+    flex-wrap: wrap;
+    @include panel(10%);
+    p {
+        margin-bottom: 2vh;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}

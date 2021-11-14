@@ -150,6 +150,74 @@ h2 {
   text-align: left;
 }
 
+ul {
+  position: relative;
+  padding: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5vh;
+}
+
+form label input, form label textarea {
+  width: 100%;
+}
+
+form label textarea {
+  height: 15vh;
+}
+
+form .email, form .message {
+  margin-bottom: 2vh;
+}
+
+.contact-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  padding: 10%;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.contact-details p {
+  margin-bottom: 2vh;
+}
+
+.contact-details iframe {
+  width: 100%;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -237,7 +305,7 @@ footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 15vh;
-  margin: 0.3rem;
+  margin-top: 1rem;
 }
 
 footer a {
