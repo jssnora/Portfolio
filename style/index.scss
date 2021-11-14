@@ -2,6 +2,7 @@
     margin-top: 5vh;
     p {
         margin-bottom: 3vh;
+        font-weight: bold;
     }
     @include panel(10%);
 }
@@ -39,4 +40,11 @@ h2 {
     }
 }
 
-
+@media screen and (min-width: 600px) {
+    .intro-home{
+      p {
+            font-size: x-large;
+        }
+    } 
+        
+}

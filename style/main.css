@@ -3,13 +3,14 @@
   margin-top: 5vh;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .intro-home p {
   margin-bottom: 3vh;
+  font-weight: bold;
 }
 
 h2 {
@@ -30,7 +31,7 @@ h2 {
   margin-bottom: 5vh;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -76,6 +77,12 @@ h2 {
   margin-bottom: 3vh;
 }
 
+@media screen and (min-width: 600px) {
+  .intro-home p {
+    font-size: x-large;
+  }
+}
+
 .experience-section .experience {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,7 +98,7 @@ h2 {
   margin-bottom: 3vh;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -107,6 +114,10 @@ h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+  margin-bottom: 2vh;
 }
 
 .experience-section .experience p {
@@ -128,7 +139,7 @@ h2 {
   margin-bottom: 3vh;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -144,6 +155,10 @@ h2 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+  margin-bottom: 2vh;
 }
 
 .education-section .education p {
@@ -153,9 +168,65 @@ h2 {
 ul {
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 600px) {
+  .experience-section .experience {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .experience-section .experience .summary {
+    width: 35%;
+    margin: 0;
+  }
+  .experience-section .experience .details {
+    width: 65%;
+    margin: 0;
+  }
+  .education-section .education {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .education-section .education .summary {
+    width: 35%;
+    margin: 0;
+  }
+  .education-section .education .details {
+    width: 65%;
+    margin: 0;
+  }
+}
+
+.contact-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-wrapper main {
+  width: 80vw;
+}
+
+.contact-wrapper main h1 {
+  margin-bottom: 3vh;
+  color: white;
 }
 
 form {
@@ -170,7 +241,7 @@ form {
           align-items: center;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   -webkit-box-orient: vertical;
@@ -210,7 +281,7 @@ form .email, form .message {
           flex-direction: column;
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
@@ -224,10 +295,16 @@ form .email, form .message {
   height: auto;
 }
 
+@media screen and (min-width: 600px) {
+  label {
+    width: 100%;
+  }
+}
+
 .blog-posts .blog-preview {
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   margin-bottom: 3vh;
@@ -253,14 +330,16 @@ form .email, form .message {
 
 h4 {
   margin-bottom: 3vh;
+  color: black;
 }
 
 .blog-post-content {
   position: relative;
   padding: 10%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  margin-bottom: 3vh;
 }
 
 .blog-post-content img {
@@ -346,6 +425,7 @@ header .navbar a {
 
 .wrapper main h1 {
   margin-bottom: 3vh;
+  color: white;
 }
 
 footer {
@@ -390,5 +470,32 @@ footer a {
           box-shadow: 0 5px 15px #666;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10vh;
+  }
+  header img {
+    width: 50vw;
+    margin: 0;
+  }
+  header .navbar {
+    width: 50vw;
+    font-size: x-large;
+  }
+  .wrapper {
+    position: relative;
+    top: 3vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */

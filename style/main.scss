@@ -48,6 +48,7 @@ header {
         width: 80vw;
         h1 {
             margin-bottom: 3vh;
+            color: white;
         }
     }
 }
@@ -63,10 +64,6 @@ footer {
         text-decoration: none;
     }
 
-}
-
-@media screen and (min-width: 600px) {
-    
 }
 
 .button {
@@ -89,4 +86,24 @@ footer {
     box-shadow: 0 5px 15px #666;
     transform: translateY(4px);
   }
+
+@media screen and (min-width: 600px) {
+    header {
+        @include flex-position(space-between, center);
+        height: 10vh;
+        img {
+            width: 50vw;
+            margin: 0;
+        }
+        .navbar {
+            width: 50vw;
+            font-size:x-large;
+        }
+    }
+    .wrapper {
+        position: relative;
+        top: 3vw;
+    }
+}
+
 
