@@ -4,7 +4,6 @@ h4 {
 }
 .blog-post-content {
     @include panel(10%);
-    margin-bottom: 3vh;
     img {
         width: 100%;
         margin-bottom: 3vh;

@@ -339,7 +339,6 @@ h4 {
   background: rgba(255, 255, 255, 0.8);
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
           box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-  margin-bottom: 3vh;
 }
 
 .blog-post-content img {
@@ -486,16 +485,12 @@ footer a {
     height: 15vh;
   }
   header img {
-    width: 50vw;
+    width: 50%;
     margin: 0;
   }
   header .navbar {
-    width: 48vw;
+    width: 50%;
     font-size: large;
-  }
-  .wrapper {
-    position: relative;
-    top: 3vw;
   }
 }
 /*# sourceMappingURL=main.css.map */

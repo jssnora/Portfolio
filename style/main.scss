@@ -92,17 +92,13 @@ footer {
         @include flex-position(space-between, center);
         height: 15vh;
         img {
-            width: 50vw;
+            width: 50%;
             margin: 0;
         }
         .navbar {
-            width: 48vw;
+            width: 50%;
             font-size:large;
         }
-    }
-    .wrapper {
-        position: relative;
-        top: 3vw;
     }
 }
 
