@@ -1,6 +1,7 @@
 form {
     @include flex-position(center, center);
     @include panel(10%);
+    flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 5vh;
     label {
@@ -17,8 +18,8 @@ form {
 }
 
 .contact-details {
-    @include flex-position(flex-start, center);
-    flex-wrap: wrap;
+    @include flex-position(flex-start, flex-start);
+    flex-direction: column;
     @include panel(10%);
     p {
         margin-bottom: 2vh;
@@ -28,3 +29,4 @@ form {
         height: auto;
     }
 }
+

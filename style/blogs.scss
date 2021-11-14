@@ -1,0 +1,22 @@
+.blog-posts {
+    .blog-preview {
+        @include panel(10%);
+        margin-bottom: 3vh;
+        a {
+            text-decoration: none;
+            margin: 3vh;
+        }
+        h4 {
+            margin: 2vh;
+        }
+        .blog-content {
+            img {
+                width: 100%;
+            }
+            p {
+                text-align:start;
+                margin: 3vh;
+            }
+        }
+    }
+}
